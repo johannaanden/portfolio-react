@@ -25,9 +25,9 @@ class Projects extends Component {
         if (projects.length > 0) {
             projectsList = projects.map(projects => {
                 return (
-                    <div key={project.id}>
+                    <div key={projects.id}>
                         <h3 className="content-text">
-                            {project.name}
+                            {projects.name}
                         </h3>    
                     </div>
                 )
