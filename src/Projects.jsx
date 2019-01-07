@@ -23,11 +23,11 @@ class Projects extends Component {
         let projectsList
 
         if (projects.length > 0) {
-            projectsList = projects.map(projects => {
+            projectsList = projects.map(project => {
                 return (
-                    <div key={projects.id}>
+                    <div key={project.id}>
                         <h3 className="content-text">
-                            {projects.name}
+                            {project.name}
                         </h3>    
                     </div>
                 )
