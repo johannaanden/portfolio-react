@@ -958,6 +958,24 @@ module.exports = {
       // center: true,
       // padding: '1rem',
     }),
+    require('tailwindcss-plugins/gradients')({
+      gradients: {
+        // Array definition (defaults to linear gradients).
+        'topaz': ['30deg', colors['orange'], colors['pink-light']],
+        'topaz-dark': ['30deg', colors['orange-dark'], colors['pink']],
+        'emerald': ['to right', colors['green-light'], colors['teal']],
+        'fireopal': ['to right', '#40E0D0', '#FF8C00', '#FF0080'],
+        'relay': ['to top left', '#3A1C71', '#D76D77', '#FFAF7B'],
+        'pinky': [colors['pink'], colors['pink-lightest']],
+
+        // Object definition.
+        'mono-circle': {
+          type: 'radial',
+          colors: ['circle', '#CCC', '#000']
+        },
+      },
+      variants: ['responsive', 'hover']
+    }),
   ],
 
 
