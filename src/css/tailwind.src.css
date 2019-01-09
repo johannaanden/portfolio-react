@@ -25,11 +25,11 @@
 /** Footer **/
 
 .footer-wrapper {
-    @apply border-t px-8 py-4;
+    @apply bg-pink-lightest px-8 py-4;
 }
 
 .footer-content {
-    @apply flex justify-center text-grey;
+    @apply flex justify-center text-pink;
 }
 
 /** Content section **/
