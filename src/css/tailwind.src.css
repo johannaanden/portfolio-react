@@ -39,5 +39,5 @@
 }
 
 .content-text {
-    @apply text-grey-dark;
+    @apply text-white;
 }
