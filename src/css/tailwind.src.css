@@ -35,7 +35,7 @@
 /** Content section **/
 
 .content-wrapper {
-    @apply px-4 pt-4 flex-1 overflow-y-scroll;
+    @apply  bg-pinky px-4 pt-4 flex-1 overflow-y-scroll;
 }
 
 .content-text {
